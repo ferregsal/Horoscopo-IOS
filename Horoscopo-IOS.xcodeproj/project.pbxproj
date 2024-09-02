@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CA919792C85B0AF00EB8D86 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA919782C85B0AF00EB8D86 /* DetailViewController.swift */; };
+		6CA9197B2C85DEF900EB8D86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA9197A2C85DEF900EB8D86 /* Assets.xcassets */; };
 		6CC837302C577F5B00E46C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8372F2C577F5B00E46C7B /* AppDelegate.swift */; };
 		6CC837322C577F5B00E46C7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC837312C577F5B00E46C7B /* SceneDelegate.swift */; };
-		6CC837342C577F5B00E46C7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC837332C577F5B00E46C7B /* ViewController.swift */; };
+		6CC837342C577F5B00E46C7B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC837332C577F5B00E46C7B /* ListViewController.swift */; };
 		6CC837372C577F5B00E46C7B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6CC837362C577F5B00E46C7B /* Base */; };
-		6CC837392C577F5D00E46C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CC837382C577F5D00E46C7B /* Assets.xcassets */; };
 		6CC8373C2C577F5D00E46C7B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6CC8373B2C577F5D00E46C7B /* Base */; };
+		6CC837482C5783B600E46C7B /* Horoscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC837472C5783B600E46C7B /* Horoscope.swift */; };
+		6CC8374A2C57853A00E46C7B /* HoroscopeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC837492C57853A00E46C7B /* HoroscopeProvider.swift */; };
+		6CDEDA502C5A3DFC009603DB /* HoroscopeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDEDA4F2C5A3DFC009603DB /* HoroscopeViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6CA919782C85B0AF00EB8D86 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6CA9197A2C85DEF900EB8D86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CC8372C2C577F5B00E46C7B /* Horoscopo-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Horoscopo-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CC8372F2C577F5B00E46C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CC837312C577F5B00E46C7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6CC837332C577F5B00E46C7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CC837332C577F5B00E46C7B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		6CC837362C577F5B00E46C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6CC837382C577F5D00E46C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CC8373B2C577F5D00E46C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CC8373D2C577F5D00E46C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CC837472C5783B600E46C7B /* Horoscope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horoscope.swift; sourceTree = "<group>"; };
+		6CC837492C57853A00E46C7B /* HoroscopeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeProvider.swift; sourceTree = "<group>"; };
+		6CDEDA4F2C5A3DFC009603DB /* HoroscopeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,51 @@
 		6CC8372E2C577F5B00E46C7B /* Horoscopo-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				6CDEDA4E2C5A3DC9009603DB /* ViewCells */,
+				6CC837462C57837A00E46C7B /* Data */,
+				6CC837432C5782BF00E46C7B /* ViewControllers */,
+				6CC837452C57835500E46C7B /* Views */,
 				6CC8372F2C577F5B00E46C7B /* AppDelegate.swift */,
 				6CC837312C577F5B00E46C7B /* SceneDelegate.swift */,
-				6CC837332C577F5B00E46C7B /* ViewController.swift */,
-				6CC837352C577F5B00E46C7B /* Main.storyboard */,
-				6CC837382C577F5D00E46C7B /* Assets.xcassets */,
-				6CC8373A2C577F5D00E46C7B /* LaunchScreen.storyboard */,
+				6CA9197A2C85DEF900EB8D86 /* Assets.xcassets */,
 				6CC8373D2C577F5D00E46C7B /* Info.plist */,
 			);
 			path = "Horoscopo-IOS";
+			sourceTree = "<group>";
+		};
+		6CC837432C5782BF00E46C7B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6CC837332C577F5B00E46C7B /* ListViewController.swift */,
+				6CA919782C85B0AF00EB8D86 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6CC837452C57835500E46C7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6CC837352C577F5B00E46C7B /* Main.storyboard */,
+				6CC8373A2C577F5D00E46C7B /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6CC837462C57837A00E46C7B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6CC837472C5783B600E46C7B /* Horoscope.swift */,
+				6CC837492C57853A00E46C7B /* HoroscopeProvider.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6CDEDA4E2C5A3DC9009603DB /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				6CDEDA4F2C5A3DFC009603DB /* HoroscopeViewCell.swift */,
+			);
+			path = ViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +169,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CC837392C577F5D00E46C7B /* Assets.xcassets in Resources */,
 				6CC8373C2C577F5D00E46C7B /* Base in Resources */,
+				6CA9197B2C85DEF900EB8D86 /* Assets.xcassets in Resources */,
 				6CC837372C577F5B00E46C7B /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +182,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CC837342C577F5B00E46C7B /* ViewController.swift in Sources */,
+				6CC837482C5783B600E46C7B /* Horoscope.swift in Sources */,
+				6CC837342C577F5B00E46C7B /* ListViewController.swift in Sources */,
 				6CC837302C577F5B00E46C7B /* AppDelegate.swift in Sources */,
+				6CDEDA502C5A3DFC009603DB /* HoroscopeViewCell.swift in Sources */,
 				6CC837322C577F5B00E46C7B /* SceneDelegate.swift in Sources */,
+				6CC8374A2C57853A00E46C7B /* HoroscopeProvider.swift in Sources */,
+				6CA919792C85B0AF00EB8D86 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
